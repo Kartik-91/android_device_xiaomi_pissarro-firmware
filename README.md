@@ -37,7 +37,7 @@ Device tree dependencies file:
 Manual cloning:
 
 ```bash
-git clone <url of this repo> -b eleven vendor/xiaomi/pissarro-firmware --depth=1 --no-tags --single-branch
+git clone https://github.com/mt6877/android_device_xiaomi_pissarro-firmware -b eleven vendor/xiaomi/pissarro-firmware --depth=1 --no-tags --single-branch
 ```
 
 > These are example entries, you need to replace the relevant stuff
