@@ -8,7 +8,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(strip pissarro $(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),pissarro)
 
 $(info Including firmware for pissarro...)
 
